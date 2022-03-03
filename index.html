@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class='container'>
+        <div class='title'>
+            <img src="logo.png" width="30%" height="30%">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="currentRound"><p id='currentRound'>First to 5 wins. Click on the buttons to begin</p><p id='score'>Score is 0-0</p></div>
+        <div class='game'>
+            <div class='player'>
+                <p class="playerScore">Player</p>
+                <div id="playerImage"></div>
+            </div>
+            <div class='computer'>
+                <p class="computerScore">Computer</p>
+                <div id="computerImage"></div>
+            </div>
+        </div>
+        <div class='buttons'>
+            <button type="button" id='rock'><img src="rock.png"></button>
+            <button type="button" id='paper'><img src="paper.png"></button>
+            <button type="button" id='scissors'><img src="scissors.png"></button>
+        </div>      
+    </div>
+
+    <div class="bx footer">
+        <p><a href="https://github.com/bskmrkvc" class="links"}><strong>Bosko Markovic</strong></a>   for   <a href="https://www.theodinproject.com/" class="links"><strong>The Odin Project</a></strong></a> 2022</p>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+
+</html>
